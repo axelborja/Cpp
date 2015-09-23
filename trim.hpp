@@ -19,7 +19,7 @@
 //
 // Trim the given string from begin
 //
-inline std::string& ltrim(std::string& iStringToTrim)
+inline std::string& left_trim(std::string& iStringToTrim)
 {
     iStringToTrim.erase(iStringToTrim.begin(),
                         std::find_if(iStringToTrim.begin(),
@@ -31,7 +31,7 @@ inline std::string& ltrim(std::string& iStringToTrim)
 //
 // Trim the given string from end
 //
-inline std::string& rtrim(std::string& iStringToTrim)
+inline std::string& right_trim(std::string& iStringToTrim)
 {
     iStringToTrim.erase(std::find_if(iStringToTrim.rbegin(),
                                      iStringToTrim.rend(),
@@ -45,7 +45,7 @@ inline std::string& rtrim(std::string& iStringToTrim)
 //
 inline std::string& trim(std::string& iStringToTrim)
 {
-    return ltrim(rtrim(iStringToTrim));
+    return left_trim(right_trim(iStringToTrim));
 }
 
 
