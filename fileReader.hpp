@@ -2,6 +2,7 @@
   File:        fileReader.hpp
   Description: C++ class to easily read file
   Author:      Axel BORJA
+  Copyright:   (C) Axel BORJA
   mail:        axel.borja.pro@gmail.com
 */
 
