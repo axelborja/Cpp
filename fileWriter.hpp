@@ -1,5 +1,5 @@
 /*
-  File:        fileWriter.cpp
+  File:        fileWriter.hpp
   Description: C++ class to easily write file
   Author:      Axel BORJA
   mail:        axel.borja.pro@gmail.com
