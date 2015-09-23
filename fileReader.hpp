@@ -1,5 +1,5 @@
 /*
-  File:        fileReader.cpp
+  File:        fileReader.hpp
   Description: C++ class to easily read file
   Author:      Axel BORJA
   mail:        axel.borja.pro@gmail.com
