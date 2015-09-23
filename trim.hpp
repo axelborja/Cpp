@@ -1,7 +1,8 @@
 /*
-  File:        trim.cpp
+  File:        trim.hpp
   Description: C++ functions to easily trim std:string
   Author:      Axel BORJA
+  Copyright:   (C) Axel BORJA
   mail:        axel.borja.pro@gmail.com
 */
 
